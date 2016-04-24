@@ -58,7 +58,7 @@ include $(CLEAR_VARS)
 libmm-vdec-inc          := $(LOCAL_PATH)/inc
 libmm-vdec-inc          += $(OMX_VIDEO_PATH)/vidc/common/inc
 libmm-vdec-inc          += $(TOP)/hardware/qcom/media-caf-msm8916/mm-core/inc
-libmm-vdec-inc          += $(TARGET_OUT_HEADERS)/qcom/display
+libmm-vdec-inc          += $(TARGET_OUT_HEADERS)/qcom/display-caf-msm8916
 libmm-vdec-inc          += $(TARGET_OUT_HEADERS)/adreno
 libmm-vdec-inc          += $(TOP)/frameworks/native-caf/include/media/openmax
 libmm-vdec-inc          += $(TOP)/frameworks/native-caf/include/media/hardware
